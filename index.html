@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Download MWA Line</title>
+    <meta name="description" content="MWA Line for macOS, Windows and Linux: the Miami Web AI team's Line on the desktop, ringing even with the window closed." />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="icon" type="image/png" href="icon.png" />
+    <link rel="apple-touch-icon" href="icon.png" />
+    <link rel="preload" href="fonts/plus-jakarta-sans-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="site.css" />
+  </head>
+  <body>
+    <!-- impeccable-disable cramped-padding: the static scan doesn't apply site.css's clamp() padding; the rendered scans at 1440 and 390 pass this rule -->
+    <a class="skip" href="#main">Skip to the downloads</a>
+
+    <header class="top wrap">
+      <a class="brand" href="./" aria-label="MWA Line">
+        <svg class="mark" viewBox="0 0 70.6 74.1" aria-hidden="true" focusable="false">
+          <rect x="7.06" y="17.65" width="14.12" height="49.41" fill="currentColor" />
+          <rect x="28.24" y="31.76" width="14.12" height="35.29" fill="currentColor" />
+          <rect x="49.41" y="17.65" width="14.12" height="49.41" fill="currentColor" />
+          <circle cx="35.29" cy="14.12" r="7.06" fill="#FF4D00" />
+        </svg>
+        <span>MWA Line</span>
+      </a>
+    </header>
+
+    <main id="main">
+      <section class="hero wrap" aria-labelledby="title">
+        <div class="hero-copy">
+          <h1 id="title" class="headline">
+            <span class="ink">The Line on your computer.</span>
+            <span class="beacon">It rings with the window closed.</span>
+          </h1>
+          <p class="lead">
+            MWA Line is the studio's phone on the desktop: Transfers, Direct line calls, texts and Follow-up drafts, in a
+            window of its own and in the tray. Sign in with your Team Member account.
+          </p>
+
+          <div class="get" data-get>
+            <a class="btn" href="https://github.com/nuko-nova-dynamics/mwa-line-releases/releases/latest" data-primary>
+              <svg class="btn-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+                <path d="M12 4v11m0 0-4.5-4.5M12 15l4.5-4.5M5 19h14" />
+              </svg>
+              <span data-primary-label>Download MWA Line</span>
+            </a>
+            <p class="get-meta" data-primary-meta>For macOS, Windows and Linux.</p>
+          </div>
+          <p class="others" data-others>
+            Another computer? <a href="#all">See every download</a>.
+          </p>
+          <p class="phone-note" data-phone-note hidden>
+            MWA Line is for computers. Open this page on your Mac or PC, or use the Line in your phone's browser at
+            <a href="https://portal.miamiweb.ai/line">portal.miamiweb.ai/line</a>.
+          </p>
+        </div>
+
+        <figure class="shot">
+          <img
+            src="call-window.png"
+            width="340"
+            height="138"
+            alt="The call window while a Transfer rings: the caller's name, Transfer, Incoming call, and Decline and Answer buttons."
+          />
+          <figcaption>
+            The call window floats over your other apps while a call rings or is on.
+            <span class="example">Example. The name is made up.</span>
+          </figcaption>
+        </figure>
+      </section>
+
+      <section class="band" id="all" aria-labelledby="all-title">
+        <div class="wrap">
+          <div class="band-head">
+            <h2 id="all-title">Every download</h2>
+            <p class="band-meta" data-version-line>The newest version, straight from GitHub.</p>
+          </div>
+          <ul class="files">
+            <li>
+              <span class="file-os">macOS, Apple silicon</span>
+              <span class="file-kind">Disk image (.dmg)</span>
+              <span class="file-size num" data-size="mac-arm"></span>
+              <a class="btn btn-line" href="https://github.com/nuko-nova-dynamics/mwa-line-releases/releases/latest" data-file="mac-arm">Download<span class="sr"> for macOS on Apple silicon</span></a>
+            </li>
+            <li>
+              <span class="file-os">macOS, Intel</span>
+              <span class="file-kind">Disk image (.dmg)</span>
+              <span class="file-size num" data-size="mac-intel"></span>
+              <a class="btn btn-line" href="https://github.com/nuko-nova-dynamics/mwa-line-releases/releases/latest" data-file="mac-intel">Download<span class="sr"> for macOS on Intel</span></a>
+            </li>
+            <li>
+              <span class="file-os">Windows, 64-bit</span>
+              <span class="file-kind">Installer (.exe)</span>
+              <span class="file-size num" data-size="windows"></span>
+              <a class="btn btn-line" href="https://github.com/nuko-nova-dynamics/mwa-line-releases/releases/latest" data-file="windows">Download<span class="sr"> for Windows</span></a>
+            </li>
+            <li>
+              <span class="file-os">Linux, 64-bit</span>
+              <span class="file-kind">AppImage</span>
+              <span class="file-size num" data-size="appimage"></span>
+              <a class="btn btn-line" href="https://github.com/nuko-nova-dynamics/mwa-line-releases/releases/latest" data-file="appimage">Download<span class="sr"> the AppImage for Linux</span></a>
+            </li>
+            <li>
+              <span class="file-os">Arch Linux and Omarchy</span>
+              <span class="file-kind">pacman package</span>
+              <span class="file-size num" data-size="pacman"></span>
+              <a class="btn btn-line" href="https://github.com/nuko-nova-dynamics/mwa-line-releases/releases/latest" data-file="pacman">Download<span class="sr"> the pacman package for Arch Linux and Omarchy</span></a>
+            </li>
+          </ul>
+          <p class="band-foot">
+            Installed apps update themselves. When a new version is ready, MWA Line offers to restart into it, and never
+            does during a call.
+          </p>
+        </div>
+      </section>
+
+      <section class="install wrap" aria-labelledby="install-title">
+        <h2 id="install-title">Installing it</h2>
+        <div class="steps">
+          <div class="system" id="install-mac">
+            <h3>macOS</h3>
+            <ol>
+              <li>Open the .dmg you downloaded.</li>
+              <li>Drag MWA Line into Applications.</li>
+              <li>Open it from Applications and sign in. It walks you through the microphone, notifications and a ringtone.</li>
+            </ol>
+          </div>
+          <div class="system" id="install-windows">
+            <h3>Windows</h3>
+            <ol>
+              <li>Run the installer.</li>
+              <li>
+                If Windows says it protected your PC, choose <strong>More info</strong>, then <strong>Run anyway</strong>. The
+                installer isn't signed with a Windows certificate yet.
+              </li>
+              <li>Open MWA Line from the Start menu and sign in.</li>
+            </ol>
+          </div>
+          <div class="system" id="install-linux">
+            <h3>Linux</h3>
+            <ol>
+              <li>
+                On Arch or Omarchy, install the package:
+                <code>sudo pacman -U mwa-line-*-x64.pacman</code>
+              </li>
+              <li>
+                Anywhere else, make the AppImage runnable and open it:
+                <code>chmod +x mwa-line-*.AppImage</code>
+              </li>
+              <li>
+                If the AppImage says it can't start without its sandbox, the system blocks what Chromium's sandbox needs.
+                Allow unprivileged user namespaces, or use the pacman package on Arch.
+              </li>
+            </ol>
+          </div>
+        </div>
+      </section>
+
+      <section class="adds wrap" aria-labelledby="adds-title">
+        <h2 id="adds-title">What it adds to the browser tab</h2>
+        <dl class="rows">
+          <div>
+            <dt>It keeps ringing</dt>
+            <dd>Closing the window leaves MWA Line in the tray, and it starts when you log in, so calls ring all day.</dd>
+          </div>
+          <div>
+            <dt>A call window over your work</dt>
+            <dd>Who's calling, the timer, Mute and End call, or Answer and Decline, above whatever app you're in.</dd>
+          </div>
+          <div>
+            <dt>Phone numbers open in the Line</dt>
+            <dd>
+              Click a number in a browser, an email or a contact, and the dialer opens with it filled in. Make MWA Line the
+              default in its Settings.
+            </dd>
+          </div>
+          <div>
+            <dt>The keyboard you expect</dt>
+            <dd>Settings with <kbd>⌘</kbd><kbd>,</kbd>, New call with <kbd>⌘</kbd><kbd>N</kbd>, search with <kbd>⌘</kbd><kbd>K</kbd>, and Ctrl in place of ⌘ on Windows and Linux.</dd>
+          </div>
+        </dl>
+      </section>
+    </main>
+
+    <footer class="foot wrap">
+      <p>
+        Made by <a href="https://miamiweb.ai">Miami Web AI</a> for its team. No computer of your own handy? The Line also runs
+        in your browser at <a href="https://portal.miamiweb.ai/line">portal.miamiweb.ai/line</a>.
+      </p>
+    </footer>
+
+    <script src="site.js"></script>
+  </body>
+</html>
